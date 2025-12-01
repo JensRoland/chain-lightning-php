@@ -1,0 +1,30 @@
+{
+    "name": "jensroland/chain-lightning",
+    "description": "Parallel dependency loading for ES modules with intelligent caching",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jens Roland",
+            "email": "mail@jensroland.com",
+            "homepage": "https://jensroland.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChainLightning\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "keywords": [
+        "esm",
+        "modules",
+        "preload",
+        "cache",
+        "performance",
+        "import-map"
+    ]
+}
